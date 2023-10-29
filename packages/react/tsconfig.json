@@ -1,0 +1,4 @@
+{
+  "extends": "@seju-ui/ts-config/react.json",
+  "include": ["src"],
+}
