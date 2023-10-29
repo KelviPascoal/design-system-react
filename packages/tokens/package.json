@@ -12,8 +12,6 @@
   },
   "devDependencies": {
     "@seju-ui/ts-config": "*",
-    "@seju-ui/eslint-config": "*",
-    "tsup": "^7.2.0",
-    "typescript": "^5.2.2"
+    "@seju-ui/eslint-config": "*"
   }
 }
