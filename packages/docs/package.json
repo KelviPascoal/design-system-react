@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-    "scripts": {
+  "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "storybook build"
   },
@@ -24,12 +24,11 @@
     "vite": "^4.5.0"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@seju-ui/eslint-config": "*",
     "@seju-ui/react": "*",
     "@seju-ui/tokens": "*",
-    "@seju-ui/eslint-config": "*"
-
-
+    "polished": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
