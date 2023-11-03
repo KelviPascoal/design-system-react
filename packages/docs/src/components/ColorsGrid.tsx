@@ -1,3 +1,4 @@
+import React from 'react'
 import { colors } from '@seju-ui/tokens'
 import { getContrast } from 'polished'
 
