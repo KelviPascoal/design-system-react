@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "private": "true",
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
   "devDependencies": {
     "tsup": "^7.2.0",
+    "turbo": "^1.10.16",
     "typescript": "^5.2.2"
   }
 }
