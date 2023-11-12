@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box, BoxProps } from '@seju-ui/react'
+import { Box, BoxProps, Text } from '@seju-ui/react'
 import React from 'react'
 
 export default {
@@ -8,7 +8,7 @@ export default {
     args: {
         children: (
             <>
-                <span>Testando o elemento Box</span>
+                <Text>Testando o elemento Box</Text>
             </>
         ),
     },
