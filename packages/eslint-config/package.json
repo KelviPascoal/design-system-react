@@ -6,6 +6,7 @@
   "private": true,
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.1.0",
-    "eslint": "^8.52.0"
+    "eslint": "^8.52.0",
+    "clean": "rimraf node_modules .turbo"
   }
 }
