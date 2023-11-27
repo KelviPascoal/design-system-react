@@ -28,6 +28,7 @@
     "@seju-ui/eslint-config": "*",
     "@seju-ui/react": "*",
     "@seju-ui/tokens": "*",
+    "@storybook/addon-a11y": "^7.5.3",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
