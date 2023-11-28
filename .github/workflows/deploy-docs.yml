@@ -3,7 +3,7 @@ name: Deploy docs Seju UI
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-deploy:
