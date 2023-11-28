@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 16
 
-      - run: yarn add ci
+      - run: yarn add -W ci
 
       - run: yarn build
 
