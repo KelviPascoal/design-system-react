@@ -1,5 +1,11 @@
 # @seju-ui/react
 
+## 4.0.0
+
+### Major Changes
+
+- add option to pass reference to TextInput and ajust some styles
+
 ## 3.0.0
 
 ### Major Changes
