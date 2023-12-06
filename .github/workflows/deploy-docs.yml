@@ -20,6 +20,9 @@ jobs:
       - run: yarn
 
       - run: yarn build
+        env:
+          TURBO_TOKEN: ASF1sPbg9O5aYlLd8N8X7m87
+          TURBO_TEAM: kelvi-pascoals-projects
 
       - name: Deploy storybook
         working-directory: ./packages/docs
