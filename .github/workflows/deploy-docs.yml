@@ -23,7 +23,7 @@ jobs:
 
       - run: yarn build
         env:
-          TURBO_TOKEN: ASF1sPbg9O5aYlLd8N8X7m87
+          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           TURBO_TEAM: kelvi-pascoals-projects
 
       - name: Deploy storybook
