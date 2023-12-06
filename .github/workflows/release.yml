@@ -22,7 +22,7 @@ jobs:
           cache: 'yarn'
           cash-dependency-path: '**/**/yarn.look'
 
-      - run: npm ci
+      - run: yarn
 
       - name: Publish to NPM
         id: changesets
