@@ -1,5 +1,11 @@
 # @seju-ui/react
 
+## 2.0.0
+
+### Major Changes
+
+- teste
+
 ## 3.0.0
 
 ### Major Changes
