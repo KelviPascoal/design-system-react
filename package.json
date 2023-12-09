@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "turbo run dev --parallel",
     "build": "turbo run build",
+    "build:lib": "turbo run build --filter=!docs",
     "clean": "turbo run clean --parallel && rimraf node_modules .turbo",
     "changeset": "changeset",
     "version-packages": "changeset version",
