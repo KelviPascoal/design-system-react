@@ -9,7 +9,7 @@
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
     "lint": "eslint src/**/*.ts* --fix",
-    "clean": "rimraf node_modules .turbo"
+    "clean": "rimraf node_modules .turbo dist"
   },
   "devDependencies": {
     "@seju-ui/ts-config": "*",
